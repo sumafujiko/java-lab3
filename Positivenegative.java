@@ -5,7 +5,7 @@ public class Positivenegative{
         //variables
         int userNumber;
         //inputs
-        userNumber = Integer.parseInt(JOptionPane.showInputDialog(null, "Enter a number."));
+        userNumber = Integer.parseInt(JOptionPane.showInputDialog(null, "Please enter a number."));
         //output
         if (userNumber>0) {
             JOptionPane.showMessageDialog(null, "Your number is positive.");
